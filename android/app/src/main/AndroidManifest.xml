@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learn_multi_ic_launcher">
     <application
         android:label="learn_multi_ic_launcher"
         android:name="${applicationName}"
