@@ -6,12 +6,13 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter/services.dart';
 
 // void changeIcon(String aliasName) async {
-//   const platform = MethodChannel('com.example.learn_intl/changeIcon');
+//   const platform = MethodChannel('com.example.learn_multi_ic_launcher/changeIcon');
 //   await platform.invokeMethod('changeIcon', {'aliasName': aliasName});
 // }
 
 Future<void> changeIcon(String aliasName) async {
-  const platform = MethodChannel('com.example.learn_intl/changeIcon');
+  const platform =
+      MethodChannel('com.example.learn_multi_ic_launcher/changeIcon');
 
   try {
     await platform.invokeMethod('changeIcon', {'aliasName': aliasName});

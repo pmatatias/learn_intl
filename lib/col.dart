@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_intl/key.dart';
+import 'package:learn_multi_ic_launcher/key.dart';
 
 class Col extends StatelessWidget {
   final List<Keye> children;

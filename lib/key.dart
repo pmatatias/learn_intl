@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_intl/konstan.dart';
+import 'package:learn_multi_ic_launcher/konstan.dart';
 
 class Keye extends StatelessWidget {
   final String char;

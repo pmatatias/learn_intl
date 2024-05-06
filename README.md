@@ -1,4 +1,4 @@
-# learn_intl
+# learn_multi_ic_launcher
 
 A new Flutter project.
 
