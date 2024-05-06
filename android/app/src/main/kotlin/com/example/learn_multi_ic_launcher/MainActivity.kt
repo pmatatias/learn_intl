@@ -1,4 +1,4 @@
-package com.example.learn_intl
+package com.example.learn_multi_ic_launcher
 
 import android.content.ComponentName
 import android.content.Context
@@ -10,7 +10,7 @@ import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 
 class MainActivity : FlutterActivity() {
-    private val CHANNEL = "com.example.learn_intl/changeIcon"
+    private val CHANNEL = "com.example.learn_multi_ic_launcher/changeIcon"
 
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
@@ -30,7 +30,7 @@ class MainActivity : FlutterActivity() {
         val prefs: SharedPreferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
 
         // Get the current activity alias from SharedPreferences
-        val currentAliasName = prefs.getString("currentAlias", "com.example.learn_intl.MainActivity")
+        val currentAliasName = prefs.getString("currentAlias", "com.example.learn_multi_ic_launcher.MainActivity")
 
         // Disable the current activity alias
         val currentActivityAlias = ComponentName(this, currentAliasName!!)

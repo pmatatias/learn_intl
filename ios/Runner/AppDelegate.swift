@@ -8,7 +8,7 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     let controller : FlutterViewController = window?.rootViewController as! FlutterViewController
-    let changeIconChannel = FlutterMethodChannel(name: "com.example.learn_intl/changeIcon",
+    let changeIconChannel = FlutterMethodChannel(name: "com.example.learn_multi_ic_launcher/changeIcon",
                                                  binaryMessenger: controller.binaryMessenger)
     changeIconChannel.setMethodCallHandler({
       (call: FlutterMethodCall, result: @escaping FlutterResult) -> Void in
